@@ -17,11 +17,17 @@
 		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
 		<script type="text/x-mathjax-config">
-		  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-		</script>
-		<script type="text/javascript"
-		  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-		</script>
+			MathJax.Hub.Config({
+			  jax: ["input/TeX", "output/HTML-CSS"],
+			  extensions: ["tex2jax.js"],
+			  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] },
+			  tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
+			  TeX: { noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } } },
+			  messageStyle: "none"
+			});
+		</script>    
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+
 	</head>
 	<body>
 	
@@ -132,13 +138,13 @@
 							<ul class="fa-ul mb-0">
 								<li>
 									<p><b>September 2018 - Now:</b></p>	
-									<p><b>M.S.</b>&emsp;-&emsp;School of Artificial Intelligence and Automation, Huazhong University of Science and Technology</p>
+									<p>M.S.&emsp;-&emsp;School of Artificial Intelligence and Automation, Huazhong University of Science and Technology</p>
 									<p>Supervisor:&emsp;<a href="https://sites.google.com/site/drwuhust/home">Prof. Dongrui Wu</a></p>
 								</li>
 								
 								<li>
 									<p><b>September 2014 - June 2018:</b></p>	
-									<p><b>B.S.</b>&emsp;-&emsp;School of Optical and Electronic Information, Huazhong University of Science and Technology</p>
+									<p>B.S.&emsp;-&emsp;School of Optical and Electronic Information, Huazhong University of Science and Technology</p>
 									<p>Supervisor:&emsp;<a href="http://oei.hust.edu.cn/info/1079/1044.htm">Prof. Danhua Cao</a></p>
 								</li>
 							</ul>
