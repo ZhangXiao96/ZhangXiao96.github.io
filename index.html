@@ -1,0 +1,384 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Xiao Zhang (张潇)</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Le styles -->
+    <link href="./assets_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets_files/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="./assets_files/yangqing.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="icon" href="./assets_files/favicon.ico">
+</head>
+
+<div class="visible-phone" id="blackBar">
+    <a href="#top">About</a>
+    <!--<a href="#research">Research</a>-->
+    <a href="#publications">Publications</a>
+    <a href="#projects">Projects</a>
+    <a href="#softwares">Softwares</a></li>
+    <a href="#gallery">Gallery</a>
+</div>
+
+<body>
+
+<div class="container span3 hidden-phone">
+    <div id="floating_sidebar" class="span3">
+        <!-- We use a fancy nav bar if there is enough space -->
+        <!--<hr class="hidden-phone">-->
+        <br>
+        <ul class="nav nav-list bs-docs-sidenav hidden-phone">
+            <li><a href="#top">About</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#softwares">Softwares</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+        <hr class="hidden-phone">
+        <div class="text-center hidden-phone">
+            <img src="img/profile.jpg" alt="photo" class="logo-image">
+            <br><br>
+            xiao_zhang AT hust.edu.cn<br>
+        </div>
+
+        <!-- Otherwise, we simply use a flat list of links -->
+
+    </div>
+</div>
+
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="span9">
+            <br>
+            <h3>
+                Xiao Zhang (张潇)
+            </h3>
+            <h5>
+                xiao_zhang AT hust.edu.cn
+            / <a target="_blank"
+                 href="https://scholar.google.com/citations?user=jgzwvDIAAAAJ&hl=en">Google Scholar</a>
+            / <a target="_blank" 
+                 href="https://github.com/ZhangXiao96">GitHub</a>
+            / <a target="_blank"
+                 href="cv/CV.pdf">CV</a>
+            </h5>
+            <!-- Do I want to show a pic on the phone screen?
+            <div class="text-center visible-phone">
+                <img src="assets/img/Yihui.png" alt="photo" width="150px"/>
+            </div>
+            -->
+            <a class="visible-phone pull-left">
+                <img class="media-object" src="img/profile.jpg" width="96px" style="margin: 0px 10px">
+            </a>
+            <p>I am currently a master student in the <b>BCI&ML Laboratory</b> at <b>Huazhong University of Science and Technology (HUST)</b>, advised by <a href="https://sites.google.com/site/drwuhust/home"><b>Prof. Dongrui Wu</b></a>. Before that, I obtained my B.Eng. from the <b>School of Optical and Electronic Information</b> at <b>HUST</b>, advised by <a href="http://oei.hust.edu.cn/info/1079/1044.htm"><b>Prof. Danhua Cao</b></a>.</p>
+			<p>I have a wide range of interests in <b>Artificial Intelligence (AI)</b>, including <b>Brain-Computer Interfaces (BCIs)</b>, <b>AI Security</b> and <b>Deep Learning (mainly on the diversity of solutions of DNNs).</b> I dream of exploring the basic rules underlying the colorful physical world, that is also why I used to major in Opto-electronic Information Science and Engineering, which includes both Physics and EE; However, I moved my research interests onto AI, because I realized that how well we can understand the world all depends on the limitations of intelligence. Simply speaking, the basic rules of the world can be regarded as a set $U$, and our brains are generated according to a subset $P \subseteq U$. As a result, $P$ is the boundary of our knowledge, even if the generating process is invertible. My ultimate goal is to get closer to the full $P$ by studying AI, which I believe is worth studying for a life.</p>
+
+            <!--
+             *** Research ***
+            -->
+            <!--<h3>-->
+            <!--<a name="research"></a> Research-->
+            <!--</h3>-->
+            <!--<p>-->
+            <!--My current research topics include:-->
+            <!--</p><ul>-->
+            <!--<li> Learning better structures for image feature extraction.-->
+            <!--</li><li> Explaining human generalization behavior with visually grounded cogscience models.-->
+            <!--</li><li> Making large-scale vision feasible and affordable.-->
+            <!--</li></ul>-->
+            <!--<p></p>-->
+            <!--<p> (Most recent publications to be added) </p>-->
+
+
+            <!--
+             *** Publications ***
+            -->
+            <h3>
+                <a name="publications"></a> Publications
+            </h3>
+			
+            <div class="media">
+                <a name="fsaf" class="pull-left">
+                    <img class="media-object" src="assets/LinearRegion/cover.png" width="200px" height="96px">
+                </a>
+                <div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+							Empirical Studies on the Properties of Linear Regions in Deep Neural Networks
+						</strong><br>
+                        <strong>Xiao Zhang</strong>, <a target="_blank" href="https://sites.google.com/site/drwuhust/home">Dongrui Wu</a><br>
+						<strong>ICLR 2020</strong> 
+                        <a target="_blank"
+                           href="assets/LinearRegion/Empirical_Studies_on_the_Properties_of_Linear_Regions_in_Deep_Neural_Networks.pdf">[PDF]</a>
+						<a target="_blank"
+						href="https://arxiv.org/abs/2001.01072">[arXiv]</a>
+						<a target="_blank"
+						href="assets/LinearRegion/bib.html">[bib]</a>
+                    </p>
+                    <p class="abstract-text">
+                        We provide a novel and meticulous perspective to look into DNNs: Instead of just counting the number of the linear regions, we study their local properties, such as the inspheres, the directions of the corresponding hyperplanes, the decision boundaries, and the relevance of the surrounding regions. We empirically observed that different optimization techniques lead to completely different linear regions, even though they result in similar classification accuracies.
+                    </p>
+                </div>
+            </div>
+						
+			<div class="media">
+                <a name="fsaf" class="pull-left">
+                    <img class="media-object" src="assets/SpellerAttacks/cover.png" width="200px" height="96px">
+                </a>
+                <div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+							Tiny Noise Can Make an EEG-Based Brain-Computer Interface Speller Output Anything
+						</strong><br>
+                        <strong>Xiao Zhang</strong>, <a target="_blank" href="https://sites.google.com/site/drwuhust/home">Dongrui Wu</a>, Lieyun Ding, Hanbin Luo, <a target="_blank" href="https://www.uts.edu.au/staff/chin-teng.lin">Chin-Teng Lin</a>, <a target="_blank" href="https://sccn.ucsd.edu/~jung/">Tzyy-Ping Jung</a><br>
+						<strong>arXiv 2020</strong>
+                        <a target="_blank"
+                           href="assets/SpellerAttacks/Tiny_Noise_Can_Make_an_EEG-Based_Brain-Computer_Interface_Speller_Output_Anything.pdf">[PDF]</a>
+						<a target="_blank"
+						href="https://arxiv.org/abs/2001.11569">[arXiv]</a>
+						<a target="_blank"
+						href="assets/SpellerAttacks/bib.html">[bib]</a>
+						<a target="_blank"
+						href="https://github.com/ZhangXiao96/Speller-Attacks">[code]</a>
+                    </p>
+                    <p class="abstract-text">
+                        We show that P300 and steady-state visual evoked potential BCI spellers can be severely attacked by adversarial perturbations, which can mislead the spellers to spell anything the attacker wants. What distinguishes the attack approaches in this article most from previous ones is that this article explicitly considers the causality in designing the perturbations; More importantly, we attack the SSVEP speller, which even has no fixed model.
+                    </p>
+                </div>
+            </div>
+			
+			<div class="media">
+                <a name="fsaf" class="pull-left">
+                    <img class="media-object" src="assets/UAP/cover.png" width="200px" height="96px">
+                </a>
+                <div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+							Universal Adversarial Perturbations for CNN Classifiers in EEG-Based BCIs
+						</strong><br>
+                        Zihan Liu*, <strong>Xiao Zhang*</strong>, <a target="_blank" href="https://sites.google.com/site/drwuhust/home">Dongrui Wu</a><br>
+						<strong>THMS 2019, submitted</strong> 
+						<a target="_blank"
+						href="https://arxiv.org/abs/1912.01171">[arXiv]</a>
+						<a target="_blank"
+						href="assets/UAP/bib.html">[bib]</a>
+						<a target="_blank"
+						href="https://github.com/ZihanLiu95/UAP_EEG">[code]</a>
+                    </p>
+                    <p class="abstract-text">
+                        We proposes a novel total loss minimization (TLM) approach to generate target universal adversarial perturbations (UAPs) for EEG-based BCIs. Our approach shows better attack performance and less perturbation than the previous DeepFool-based UAP.
+                    </p>
+                </div>
+            </div>
+
+
+			<div class="media">
+                <a name="fsaf" class="pull-left">
+                    <img class="media-object" src="assets/AttackCNNEEG/cover.png" width="200px" height="96px">
+                </a>
+                <div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+							On the Vulnerability of CNN Classifiers in EEG-Based BCIs
+						</strong><br>
+                        <strong>Xiao Zhang</strong>, <a target="_blank" href="https://sites.google.com/site/drwuhust/home">Dongrui Wu</a><br>
+						<strong>TNSRE 2019</strong> 
+                        <a target="_blank"
+                           href="assets/AttackCNNEEG/On_the_Vulnerability_of_CNN_Classifiers_in_EEG-based_BCIs.pdf">[PDF]</a>
+						<a target="_blank"
+						href="https://arxiv.org/abs/1904.02002">[arXiv]</a>
+						<a target="_blank"
+						href="assets/AttackCNNEEG/bib.html">[bib]</a>
+                    </p>
+                    <p class="abstract-text">
+                        We investigates the vulnerability of CNN classifiers in EEG-based BCI systems. We generate adversarial examples by injecting a jamming module before a CNN classifier to fool it. Three scenarios – white-box attack, gray-box attack, and black-box attack – were considered, and separate attack strategies were proposed for each of them. Experiments on three EEG datasets and three CNN classifiers demonstrated the vulnerability of CNN classifiers in EEG-based BCIs
+                    </p>
+                </div>
+            </div>
+
+
+
+            <!--
+             *** Projects ***
+            -->
+            <h3>
+                <a name="softwares"></a> Softwares
+            </h3>
+            Link to my <a target="_blank" href="https://github.com/ZhangXiao96">[github public projects]</a>
+
+            <div class="media">
+                <a class="pull-left">
+                    <img class="media-object"
+                         src="assets/GitKerasAdversary/cover.png"
+                         width="96px" height="96px">
+                </a>
+                <div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+                            Keras Adversary
+                        </strong>
+                        <a target="_blank"
+                           href="https://github.com/ZhangXiao96/KerasAdversary">[Code (python)]</a>
+                    </p>
+                    <p class="abstract-text">
+						This is a toolbox to provide an easy-use interface to construct adversarial examples of Keras models.
+                    </p>
+                </div>
+            </div>
+			
+			<div class="media">
+                <a class="pull-left">
+                    <img class="media-object"
+                         src="assets/GitLFPAnalyze/cover.png"
+                         width="96px" height="96px">
+                </a>
+                <div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+                            Analyzing Local Field Potential
+                        </strong>
+                        <a target="_blank"
+                           href="https://github.com/ZhangXiao96/LFP-Analyze">[Code (Matlab)]</a>
+                    </p>
+                    <p class="abstract-text">
+						This project is mainly about analyzing Local Field Potential (LFP). The data comes from our collaborator <a href="https://sites.google.com/view/xiaomo/home">Dr. Xiaomo Chen</a>, collected from two male rhesus monkeys which were trained to perform an oculomotor gambling task. We analyzed the features on the spectrum of LFPs to decide which part of spectrum is responsible for the tasks.
+                    </p>
+                </div>
+            </div>
+
+			<!--
+             *** Awards ***
+            -->
+            <h3>
+                <a name="awards"></a> Awards
+            </h3>
+			
+            <div class="media">
+                <div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+							National scholarship for Postgraduates, 2019
+						</strong>
+                    </p>
+                </div>
+				<div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+							<b>1</b><sup>st</sup> Place - China Brain-Computer Interface Competition, 2019
+						</strong>
+                    </p>
+                </div>
+				<div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+							"Outstanding Graduate" of HUST, 2018
+						</strong>
+                    </p>
+                </div>
+				<div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+							"Honor College Student" of Qiming College of HUST, 2018
+						</strong>
+                    </p>
+                </div>
+				<div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+							<b>2</b><sup>nd</sup> Place - The 7th Mathematics competition of Chinese College Students, 2015
+						</strong>
+                    </p>
+                </div>
+				<div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+							National Encouragement Scholarship, 2015
+						</strong>
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- Footer
+            ================================================== -->
+            <hr>
+			<h3>
+                <a name="Gallery"></a> Gallery!
+            </h3>
+            <footer class="footer">
+                <div class='hidden-phone'>
+                <!-- <h3 class="text-center"><a name="wall"></a><strong>works</strong></h3>-->
+                <section id="photos">
+                    <img src="img/4.jpg"/>
+                    <img src="img/2.jpg"/>
+                    <img src="img/6.jpg"/>
+                    <img src="img/7.jpg"/>
+                    <img src="img/1.jpg"/>
+                    <img src="img/5.jpg"/>
+                    <img src="img/3.jpg"/>
+                    <img src="img/8.jpg"/>
+                    <img src="img/9.jpg"/>
+                    <img src="img/10.jpg"/>
+                </section>
+				
+                <p class="abstract-text">
+					PS: I like playing the accordion and electronic guitar. If you also enjoy music, pleas contact me \^_^/. By the way, I am also very good at mental arithmetic (I can calculate the formula like $526 \times 926$ mentally in about 5s ~). Welcome to discuss if you are also interested!
+				</p>
+                <hr>
+                </div>
+                <div class="row">
+                    <div class="span12">
+                        <p>
+                            modified from <a target="_blank" href="http://yihui-he.github.io">© yihui he</a>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!--
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/bootstrap-affix.js"></script>
+    <script src="assets/js/holder/holder.js"></script>
+    <script src="assets/js/application.js"></script>
+-->
+<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+			  jax: ["input/TeX", "output/HTML-CSS"],
+			  extensions: ["tex2jax.js"],
+			  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] },
+			  tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
+			  TeX: { noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } } },
+			  messageStyle: "none"
+			});
+</script>    
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
